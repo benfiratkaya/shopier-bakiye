@@ -5,6 +5,8 @@
         require_once("api.php");
         $shopier = new Shopier(API_KEY, API_SECRET);
 
+        $amount = (post("amount")+(post("amount")*COMMISSION/100));
+
         // ÖDEME YAPAN KİŞİNİN BİLGİLERİ
         $shopier->setBuyer([
             'id' => post("user_id"),
@@ -38,14 +40,14 @@
             post("country"),
             post("city"),
             post("zip_code"),
-            post("amount"),
+            $amount,
             0,
             0,
             date('Y-m-d H:i:s')
         ));
         $orderID = $db->lastInsertId();
 
-        die($shopier->run($orderID, post("amount"), CALLBACK_URL));
+        die($shopier->run($orderID, $amount, CALLBACK_URL));
     }
     else {
         go("/");
