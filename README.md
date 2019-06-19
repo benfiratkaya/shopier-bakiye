@@ -14,5 +14,5 @@ Eğer kendi sitenize entegre ettirmek isterseniz +90 535 068 54 72 numaralı tel
 
 Demo: https://www.leaderos.web.tr/Shopier
 
-# Güncellemeler:
+## Güncellemeler:
 * Komisyon sistemi eklendi.
