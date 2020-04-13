@@ -6,13 +6,11 @@ Kurulum basit Github bağlantısından dosyaları indirip, kendi sunucunuza yük
 
 İndirdiğiniz dosyalar içerisindeki orders.sql.zip dosyasını PHPMyAdmin'den import (içe aktar) sayfasında sürükleyin.
 
-Connect.php dosyasından veritabanı bilgilerini ve API erişim bilgilerini düzenleyin.
+connect.php dosyasından veritabanı bilgilerini ve API erişim bilgilerini düzenleyin.
+
+PHP sürümünü 7 veya üzeri olarak ayarlayın.
 
 Artık ödeme alabilirsiniz.
-
-Eğer kendi sitenize entegre ettirmek isterseniz +90 535 068 54 72 numaralı telefona WhatsApp'dan mesaj atabilirsiniz.
-
-Demo: https://www.leaderos.web.tr/Shopier
 
 ## Güncellemeler:
 * Komisyon sistemi eklendi.
